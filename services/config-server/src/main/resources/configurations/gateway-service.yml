@@ -10,4 +10,17 @@ spring:
         - id: ppab-service
           uri: lb:http://PPAB-SERVICE
           predicates:
-            - Path=/api/v1/customers/**
+            - Path=/ppab/**
+            - Path=/associative/**
+            - Path=/codeAA/**
+            - Path=/codeBenef/**
+            - Path=/codeCompo/**
+            - Path=/codeG/**
+            - Path=/codeOS/**
+            - Path=/codeRt/**
+            - Path=/codeType/**
+            - Path=/compte/**
+            - Path=/modeExecution/**
+            - Path=/ptba/**
+            - Path=/responsable/**
+            - Path=/tauxChange/**

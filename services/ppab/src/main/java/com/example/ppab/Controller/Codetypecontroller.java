@@ -3,14 +3,12 @@ package com.example.ppab.Controller;
 import com.example.ppab.Model.Codetype;
 import com.example.ppab.Service.codetypeservice;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@RequestMapping("/codeType")
 public class Codetypecontroller {
     @Autowired
     private codetypeservice codetypeservice;

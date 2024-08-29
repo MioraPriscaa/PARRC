@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@RequestMapping("/associative")
 public class Assocativecontroller {
     @Autowired
     private A1responsableservice a1responsableservice;

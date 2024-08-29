@@ -4,13 +4,11 @@ import com.example.ppab.Model.Codecompo;
 import com.example.ppab.Model.Planfinaciere;
 import com.example.ppab.Service.Codecomposervice;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@RequestMapping("/codeCompo")
 @RestController
 public class Codecompocontroller {
     @Autowired

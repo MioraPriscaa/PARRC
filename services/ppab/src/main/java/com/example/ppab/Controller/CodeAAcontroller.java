@@ -5,14 +5,12 @@ import com.example.ppab.Model.CodeA2;
 import com.example.ppab.Service.CodeA1service;
 import com.example.ppab.Service.CodeA2service;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@RequestMapping("/codeAA")
 public class CodeAAcontroller {
     @Autowired
     private CodeA2service codeA2service;

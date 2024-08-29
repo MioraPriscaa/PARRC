@@ -7,7 +7,7 @@ import javax.persistence.*;
 public class A1responsable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)  // Utilise SERIAL dans PostgreSQL
-    @Column(name = "id", updatable = false, nullable = false)
+    @Column(name = "id")
     int id;
     int codeA1;
 
